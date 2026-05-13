@@ -1,0 +1,33 @@
+{
+  "short": [
+    "What is the capital of France?",
+    "What is the speed of light?",
+    "Who invented the telephone?",
+    "What is the largest planet in the solar system?",
+    "What is the chemical formula for water?",
+    "Who wrote Romeo and Juliet?",
+    "What is the square root of 144?",
+    "What is the capital of Japan?",
+    "How many continents are there on Earth?",
+    "What is the boiling point of water in Celsius?"
+  ],
+  "medium": [
+    "Explain the key differences between machine learning and deep learning, and provide an example of each.",
+    "What are the main differences between SQL and NoSQL databases? When would you use each?",
+    "Explain how the internet works, from typing a URL to seeing a webpage.",
+    "What is the difference between supervised and unsupervised learning in machine learning?",
+    "Explain the concept of recursion in programming and provide a simple example.",
+    "What are the main differences between TCP and UDP protocols?",
+    "Explain what an API is and how it works, with a real world example.",
+    "What is the difference between a process and a thread in operating systems?",
+    "Explain the concept of Big O notation and why it matters in programming.",
+    "What are the main differences between relational and graph databases?"
+  ],
+  "long": [
+    "The transformer architecture, introduced in the paper 'Attention is All You Need' by Vaswani et al. in 2017, has become the foundation for most modern large language models. Unlike recurrent neural networks, which process sequences sequentially, transformers process all tokens in parallel using self-attention mechanisms. This allows better parallelisation during training and has proven more effective at capturing long-range dependencies in text. When deploying transformers for inference on CPU, the main bottlenecks are the model's large memory footprint and the repeated loading of weights during the decoding phase. Based on this context, what are the main challenges when running large transformer models on CPU-only systems, and how might quantisation help address these challenges?",
+    "In distributed computing, consistency and availability are often in tension, as described by the CAP theorem. A distributed system can guarantee at most two of the following three properties: consistency, availability, and partition tolerance. In practice, network partitions are unavoidable, so system designers must choose between consistency and availability. Some systems like Apache Cassandra favour availability, while others like HBase favour consistency. Given this context, explain the CAP theorem in detail, describe real world examples of systems that prioritise consistency vs availability, and discuss how modern NewSQL databases attempt to balance these trade-offs.",
+    "Modern CPUs have multiple levels of cache memory (L1, L2, L3) designed to bridge the speed gap between the processor and main memory (DRAM). Cache hits are orders of magnitude faster than main memory accesses. When running large language model inference on CPU, the model weights often exceed the total cache size, meaning most weight accesses result in cache misses and must be fetched from DRAM. This makes memory bandwidth the primary bottleneck for LLM inference on CPU. Given this context, explain how CPU cache hierarchy works, why LLM inference is memory-bandwidth bound rather than compute-bound, and what techniques like quantisation and weight pruning can do to improve inference performance on CPU-only systems.",
+    "The MapReduce programming model, introduced by Google in 2004, revolutionised large scale data processing by allowing developers to express computations as a series of map and reduce operations that could be automatically parallelised across thousands of machines. Apache Hadoop implemented this model as an open source framework, enabling organisations to process petabytes of data on commodity hardware. However, MapReduce has limitations including high disk I/O due to materialising intermediate results and poor support for iterative algorithms. Apache Spark addressed these limitations through in-memory processing and a more flexible execution model based on resilient distributed datasets. Compare MapReduce and Spark in terms of performance, programming model, and use cases. When would you choose one over the other?",
+    "Quantisation is a model compression technique that reduces the precision of neural network weights from 32-bit floating point to lower bit representations such as 16-bit, 8-bit, or even 4-bit integers. This reduces memory footprint and can significantly speed up inference, especially on hardware without native floating point support. However, quantisation introduces approximation errors that can degrade model quality, particularly for very low bit widths. Different quantisation schemes such as symmetric vs asymmetric, per-tensor vs per-channel, and post-training vs quantisation-aware training offer different trade-offs between compression ratio and quality. Given this context, explain the different types of quantisation used in large language models, discuss the trade-offs between compression and quality, and analyse how quantisation affects inference performance specifically on CPU-only systems."
+  ]
+}

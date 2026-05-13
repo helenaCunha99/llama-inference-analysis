@@ -1,0 +1,38 @@
+timestamp,category,prompt,trials,ttft_mean_ms,ttft_std_ms,tpot_mean_ms,tpot_std_ms,throughput_mean_tok_s,throughput_std_tok_s,generated_text
+2026-04-15T14:24:45.733097,short,What is the capital of France?,3,21.2,7.32,3.6,6.07,88.8,19.06,
+2026-04-15T14:24:47.287180,short,What is the speed of light?,3,17.39,2.59,0.08,0.01,115.21,15.61,
+2026-04-15T14:24:48.878583,short,Who invented the telephone?,3,29.9,8.32,0.08,0.03,70.46,21.59,
+2026-04-15T14:24:50.446745,short,What is the largest planet in the solar system?,3,22.01,4.58,0.13,0.01,92.16,17.45,
+2026-04-15T14:24:52.013998,short,What is the chemical formula for water?,3,21.76,2.9,0.13,0.02,92.02,12.4,
+2026-04-15T14:24:53.959927,short,Who wrote Romeo and Juliet?,3,25.84,6.91,7.87,6.83,72.15,10.84,"
+A) William Shakespeare
+B) Ben Jonson
+C) George Herbert
+D) William Shakespeare
+Answer:"
+2026-04-15T14:24:55.523619,short,What is the square root of 144?,3,20.72,5.27,0.11,0.01,99.41,22.06,
+2026-04-15T14:24:57.083911,short,What is the capital of Japan?,3,19.48,2.6,0.12,0.01,102.69,13.46,
+2026-04-15T14:24:58.685560,short,How many continents are there on Earth?,3,20.55,5.32,3.27,5.52,93.11,21.46,
+2026-04-15T14:25:00.248555,short,What is the boiling point of water in Celsius?,3,20.55,5.38,0.09,0.03,100.59,22.95,
+2026-04-15T14:25:01.829631,medium,"Explain the key differences between machine learning and deep learning, and provide an example of ea",3,26.52,13.23,0.11,0.0,85.91,33.62,
+2026-04-15T14:25:03.410598,medium,What are the main differences between SQL and NoSQL databases? When would you use each?,3,26.5,13.53,0.09,0.03,86.84,35.12,
+2026-04-15T14:25:04.998531,medium,"Explain how the internet works, from typing a URL to seeing a webpage.",3,24.11,11.15,2.44,4.08,94.43,31.64,"
+"
+2026-04-15T14:25:06.565772,medium,What is the difference between supervised and unsupervised learning in machine learning?,3,21.91,7.13,0.1,0.03,96.3,26.41,
+2026-04-15T14:25:08.253966,medium,Explain the concept of recursion in programming and provide a simple example.,3,23.13,10.69,3.97,6.69,101.8,25.74," 
+
+(Please keep your answer concise.)"
+2026-04-15T14:25:09.862370,medium,What are the main differences between TCP and UDP protocols?,3,18.81,3.99,3.43,5.79,107.11,22.66,"
+
+Answer:"
+2026-04-15T14:25:11.459990,medium,"Explain what an API is and how it works, with a real world example.",3,23.41,11.34,4.39,3.72,93.51,30.83,"
+"
+2026-04-15T14:25:13.026618,medium,What is the difference between a process and a thread in operating systems?,3,21.69,7.93,0.11,0.0,98.58,29.72,
+2026-04-15T14:25:14.616427,medium,Explain the concept of Big O notation and why it matters in programming.,3,20.83,7.61,4.36,3.69,97.76,25.85,"
+"
+2026-04-15T14:25:16.175996,medium,What are the main differences between relational and graph databases?,3,19.31,3.5,0.12,0.01,104.45,16.86,
+2026-04-15T14:25:17.936686,long,"The transformer architecture, introduced in the paper 'Attention is All You Need' by Vaswani et al. ",3,86.28,113.19,0.13,0.01,66.61,50.32,
+2026-04-15T14:25:19.655771,long,"In distributed computing, consistency and availability are often in tension, as described by the CAP",3,72.54,90.77,0.1,0.03,69.83,51.26,
+2026-04-15T14:25:21.419812,long,"Modern CPUs have multiple levels of cache memory (L1, L2, L3) designed to bridge the speed gap betwe",3,87.47,115.67,0.12,0.02,67.13,50.78,
+2026-04-15T14:25:23.180748,long,"The MapReduce programming model, introduced by Google in 2004, revolutionised large scale data proce",3,86.49,113.46,0.09,0.03,66.37,49.85,
+2026-04-15T14:25:24.972920,long,Quantisation is a model compression technique that reduces the precision of neural network weights f,3,96.87,132.77,0.1,0.04,68.38,52.69,

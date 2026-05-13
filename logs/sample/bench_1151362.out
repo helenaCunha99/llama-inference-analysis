@@ -1,0 +1,121 @@
+=== llama.cpp Benchmark ===
+Date     : Wed 15 Apr 14:24:36 WEST 2026
+Node     : cnx095.deucalion.macc.fccn.pt
+Model    : /projects/F202500010HPCVLABUMINHO/uminhocp008/ADED/project2/models/SmolLM2-360M-Instruct-Q4_K_M.gguf
+Threads  : 16
+Parallel : 1
+Ctx size : 2048
+Job ID   : 1151362
+
+>> Starting llama-server...
+>> Waiting for server...
+   Server ready after 2s.
+>> Warmup request...
+>> Running benchmark...
+Loaded 25 prompts (3 trials each)
+Output: /projects/F202500010HPCVLABUMINHO/uminhocp008/ADED/project2/results/results_SmolLM2-360M-Instruct-Q4_K_M_t16_p1_ctx2048_job1151362.csv
+[1/25] Category: short | Prompt: What is the capital of France?...
+  Trial 1/3... TTFT=29.4ms TPOT=0.07ms 67.65tok/s
+  Trial 2/3... TTFT=15.34ms TPOT=10.61ms 94.08tok/s
+  Trial 3/3... TTFT=18.86ms TPOT=0.13ms 104.66tok/s
+[2/25] Category: short | Prompt: What is the speed of light?...
+  Trial 1/3... TTFT=20.37ms TPOT=0.08ms 97.33tok/s
+  Trial 2/3... TTFT=16.19ms TPOT=0.07ms 122.22tok/s
+  Trial 3/3... TTFT=15.62ms TPOT=0.09ms 126.09tok/s
+[3/25] Category: short | Prompt: Who invented the telephone?...
+  Trial 1/3... TTFT=37.49ms TPOT=0.12ms 53.01tok/s
+  Trial 2/3... TTFT=31.2ms TPOT=0.06ms 63.77tok/s
+  Trial 3/3... TTFT=21.0ms TPOT=0.07ms 94.61tok/s
+[4/25] Category: short | Prompt: What is the largest planet in the solar system?...
+  Trial 1/3... TTFT=27.19ms TPOT=0.13ms 72.77tok/s
+  Trial 2/3... TTFT=20.36ms TPOT=0.12ms 97.09tok/s
+  Trial 3/3... TTFT=18.49ms TPOT=0.13ms 106.61tok/s
+[5/25] Category: short | Prompt: What is the chemical formula for water?...
+  Trial 1/3... TTFT=24.63ms TPOT=0.14ms 80.38tok/s
+  Trial 2/3... TTFT=21.82ms TPOT=0.13ms 90.62tok/s
+  Trial 3/3... TTFT=18.83ms TPOT=0.11ms 105.07tok/s
+[6/25] Category: short | Prompt: Who wrote Romeo and Juliet?...
+  Trial 1/3... TTFT=25.5ms TPOT=13.0ms 74.17tok/s
+  Trial 2/3... TTFT=19.11ms TPOT=10.49ms 81.84tok/s
+  Trial 3/3... TTFT=32.91ms TPOT=0.11ms 60.44tok/s
+[7/25] Category: short | Prompt: What is the square root of 144?...
+  Trial 1/3... TTFT=26.77ms TPOT=0.11ms 74.21tok/s
+  Trial 2/3... TTFT=18.22ms TPOT=0.1ms 108.83tok/s
+  Trial 3/3... TTFT=17.16ms TPOT=0.11ms 115.2tok/s
+[8/25] Category: short | Prompt: What is the capital of Japan?...
+  Trial 1/3... TTFT=22.24ms TPOT=0.13ms 88.9tok/s
+  Trial 2/3... TTFT=19.14ms TPOT=0.12ms 103.37tok/s
+  Trial 3/3... TTFT=17.07ms TPOT=0.11ms 115.79tok/s
+[9/25] Category: short | Prompt: How many continents are there on Earth?...
+  Trial 1/3... TTFT=26.67ms TPOT=0.12ms 74.42tok/s
+  Trial 2/3... TTFT=17.9ms TPOT=9.64ms 88.37tok/s
+  Trial 3/3... TTFT=17.07ms TPOT=0.05ms 116.55tok/s
+[10/25] Category: short | Prompt: What is the boiling point of water in Celsius?...
+  Trial 1/3... TTFT=26.72ms TPOT=0.11ms 74.39tok/s
+  Trial 2/3... TTFT=18.05ms TPOT=0.06ms 110.2tok/s
+  Trial 3/3... TTFT=16.88ms TPOT=0.11ms 117.17tok/s
+[11/25] Category: medium | Prompt: Explain the key differences between machine learni...
+  Trial 1/3... TTFT=41.75ms TPOT=0.11ms 47.7tok/s
+  Trial 2/3... TTFT=20.0ms TPOT=0.11ms 99.07tok/s
+  Trial 3/3... TTFT=17.82ms TPOT=0.11ms 110.97tok/s
+[12/25] Category: medium | Prompt: What are the main differences between SQL and NoSQ...
+  Trial 1/3... TTFT=42.04ms TPOT=0.11ms 47.36tok/s
+  Trial 2/3... TTFT=20.09ms TPOT=0.11ms 98.58tok/s
+  Trial 3/3... TTFT=17.36ms TPOT=0.06ms 114.59tok/s
+[13/25] Category: medium | Prompt: Explain how the internet works, from typing a URL ...
+  Trial 1/3... TTFT=36.94ms TPOT=7.15ms 58.46tok/s
+  Trial 2/3... TTFT=18.53ms TPOT=0.11ms 106.84tok/s
+  Trial 3/3... TTFT=16.85ms TPOT=0.06ms 117.98tok/s
+[14/25] Category: medium | Prompt: What is the difference between supervised and unsu...
+  Trial 1/3... TTFT=30.12ms TPOT=0.11ms 65.99tok/s
+  Trial 2/3... TTFT=18.31ms TPOT=0.07ms 108.57tok/s
+  Trial 3/3... TTFT=17.29ms TPOT=0.12ms 114.35tok/s
+[15/25] Category: medium | Prompt: Explain the concept of recursion in programming an...
+  Trial 1/3... TTFT=35.48ms TPOT=11.7ms 72.08tok/s
+  Trial 2/3... TTFT=17.04ms TPOT=0.11ms 116.14tok/s
+  Trial 3/3... TTFT=16.88ms TPOT=0.11ms 117.17tok/s
+[16/25] Category: medium | Prompt: What are the main differences between TCP and UDP ...
+  Trial 1/3... TTFT=23.41ms TPOT=10.12ms 80.98tok/s
+  Trial 2/3... TTFT=16.62ms TPOT=0.11ms 119.02tok/s
+  Trial 3/3... TTFT=16.39ms TPOT=0.06ms 121.32tok/s
+[17/25] Category: medium | Prompt: Explain what an API is and how it works, with a re...
+  Trial 1/3... TTFT=36.5ms TPOT=6.87ms 59.62tok/s
+  Trial 2/3... TTFT=17.19ms TPOT=6.2ms 101.03tok/s
+  Trial 3/3... TTFT=16.53ms TPOT=0.11ms 119.88tok/s
+[18/25] Category: medium | Prompt: What is the difference between a process and a thr...
+  Trial 1/3... TTFT=30.83ms TPOT=0.11ms 64.48tok/s
+  Trial 2/3... TTFT=17.62ms TPOT=0.11ms 112.33tok/s
+  Trial 3/3... TTFT=16.63ms TPOT=0.11ms 118.94tok/s
+[19/25] Category: medium | Prompt: Explain the concept of Big O notation and why it m...
+  Trial 1/3... TTFT=29.61ms TPOT=6.72ms 69.54tok/s
+  Trial 2/3... TTFT=16.43ms TPOT=6.24ms 103.45tok/s
+  Trial 3/3... TTFT=16.44ms TPOT=0.11ms 120.29tok/s
+[20/25] Category: medium | Prompt: What are the main differences between relational a...
+  Trial 1/3... TTFT=23.35ms TPOT=0.11ms 84.98tok/s
+  Trial 2/3... TTFT=17.28ms TPOT=0.11ms 114.4tok/s
+  Trial 3/3... TTFT=17.29ms TPOT=0.13ms 113.96tok/s
+[21/25] Category: long | Prompt: The transformer architecture, introduced in the pa...
+  Trial 1/3... TTFT=216.97ms TPOT=0.14ms 9.21tok/s
+  Trial 2/3... TTFT=22.68ms TPOT=0.12ms 87.5tok/s
+  Trial 3/3... TTFT=19.2ms TPOT=0.12ms 103.12tok/s
+[22/25] Category: long | Prompt: In distributed computing, consistency and availabi...
+  Trial 1/3... TTFT=177.34ms TPOT=0.12ms 11.27tok/s
+  Trial 2/3... TTFT=21.63ms TPOT=0.12ms 91.65tok/s
+  Trial 3/3... TTFT=18.66ms TPOT=0.06ms 106.57tok/s
+[23/25] Category: long | Prompt: Modern CPUs have multiple levels of cache memory (...
+  Trial 1/3... TTFT=221.03ms TPOT=0.12ms 9.04tok/s
+  Trial 2/3... TTFT=22.19ms TPOT=0.14ms 89.23tok/s
+  Trial 3/3... TTFT=19.2ms TPOT=0.11ms 103.11tok/s
+[24/25] Category: long | Prompt: The MapReduce programming model, introduced by Goo...
+  Trial 1/3... TTFT=217.5ms TPOT=0.1ms 9.19tok/s
+  Trial 2/3... TTFT=22.32ms TPOT=0.06ms 89.2tok/s
+  Trial 3/3... TTFT=19.66ms TPOT=0.12ms 100.72tok/s
+[25/25] Category: long | Prompt: Quantisation is a model compression technique that...
+  Trial 1/3... TTFT=250.17ms TPOT=0.13ms 7.99tok/s
+  Trial 2/3... TTFT=21.61ms TPOT=0.06ms 92.11tok/s
+  Trial 3/3... TTFT=18.84ms TPOT=0.12ms 105.03tok/s
+
+=== Done! Results saved to /projects/F202500010HPCVLABUMINHO/uminhocp008/ADED/project2/results/results_SmolLM2-360M-Instruct-Q4_K_M_t16_p1_ctx2048_job1151362.csv ===
+
+=== Done! Results saved to: /projects/F202500010HPCVLABUMINHO/uminhocp008/ADED/project2/results/results_SmolLM2-360M-Instruct-Q4_K_M_t16_p1_ctx2048_job1151362.csv ===
+Killing server...
