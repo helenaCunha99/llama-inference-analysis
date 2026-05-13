@@ -1,0 +1,50 @@
+timestamp,category,prompt,trials,ttft_mean_ms,ttft_std_ms,tpot_mean_ms,tpot_std_ms,throughput_mean_tok_s,throughput_std_tok_s,generated_text
+2026-05-13T22:11:36.299239,short,What is the capital of France?,3,35.98,32.14,8.36,0.73,107.38,9.3,"As an Hugging Face AI, I can assist you with your question. The capital of France is Paris."
+2026-05-13T22:11:38.571348,short,What is the speed of light?,3,20.41,7.57,8.94,0.28,106.38,0.83,"The speed of light is approximately 299,792,458 meters per second."
+2026-05-13T22:11:41.685477,short,Who invented the telephone?,3,23.87,6.37,11.94,0.24,81.91,0.93,"The invention of the telephone is attributed to Alexander Graham Bell, an English inventor. In 1876, Bell successfully demonstrated the telephone to the public for the first time, making it the first "
+2026-05-13T22:11:44.032463,short,What is the largest planet in the solar system?,3,25.72,11.21,11.52,0.55,82.31,3.57,"Hi! The largest planet in our solar system is Jupiter. It's so big that if you were to put all the planets in our solar system into Jupiter's orbit, it would still be the largest."
+2026-05-13T22:11:45.971553,short,What is the chemical formula for water?,3,23.71,8.83,11.1,0.1,82.47,5.0,The chemical formula for water is H2O.
+2026-05-13T22:11:49.270956,short,Who wrote Romeo and Juliet?,3,25.26,7.82,12.04,0.41,80.66,1.63,"I'm sorry, but as a text-based AI, I don't have the ability to provide quotes or book titles. I recommend you to search for the specific author of Romeo and Juliet, or look up the biography of William"
+2026-05-13T22:11:51.846985,short,What is the square root of 144?,3,28.19,14.11,11.99,0.7,79.64,4.38,"I'm sorry, but as an AI, I don't have the ability to perform calculations or provide financial advice. I can help with general information and answer questions. Please visit a financial advisor or a b"
+2026-05-13T22:11:54.780112,short,What is the capital of Japan?,3,24.41,7.62,12.13,0.3,79.12,1.88,Japan is a country located in East Asia. The capital of Japan is Tokyo.
+2026-05-13T22:11:58.225957,short,How many continents are there on Earth?,3,27.61,10.41,12.49,0.07,78.07,0.82,"I'm sorry, I'm an AI developed to provide information, and I don't have the ability to directly provide geographical information or answer questions about the number of continents on Earth. However, I"
+2026-05-13T22:12:00.347234,short,What is the boiling point of water in Celsius?,3,27.1,13.53,12.22,0.05,75.99,5.31,The boiling point of water is 100°C.
+2026-05-13T22:12:11.319659,medium,"Explain the key differences between machine learning and deep learning, and provide an example of ea",3,34.63,19.68,13.83,0.42,71.86,2.26,"Sure, let's break it down for you.
+
+Machine learning (ML) and deep learning (DL) are both forms of artificial intelligence, but they serve different purposes and work in distinct ways.
+
+Machine learni"
+2026-05-13T22:12:23.967170,medium,What are the main differences between SQL and NoSQL databases? When would you use each?,3,34.75,18.31,14.32,0.74,69.55,3.29,"SOLUTION: I'll provide a concise explanation of the main differences between SQL and NoSQL databases, along with examples of when to use each.
+
+SQL databases:
+- Store and manage relational data (e.g.,"
+2026-05-13T22:12:35.800318,medium,"Explain how the internet works, from typing a URL to seeing a webpage.",3,32.92,16.23,14.7,0.42,67.69,2.29,"Sure, I'd be happy to explain it in a very simplified way.
+
+1. **Typing the URL**: When you type a URL into your web browser, it sends a request to a web server. The browser then searches for a web se"
+2026-05-13T22:12:47.091972,medium,What is the difference between supervised and unsupervised learning in machine learning?,3,31.2,13.37,14.1,0.16,70.48,1.09,"Supervised learning involves training a model using labeled data to make predictions on new, unseen data. The model learns from the examples, such as training data and test data, where the examples ar"
+2026-05-13T22:12:58.424927,medium,Explain the concept of recursion in programming and provide a simple example.,3,32.33,14.19,14.16,0.12,70.26,0.52,"Recursion is a programming technique where a function calls itself repeatedly until it reaches a base case that stops the recursion.
+
+**Example:**
+
+Recursive factorial function:
+
+```python
+def factori"
+2026-05-13T22:13:11.066415,medium,What are the main differences between TCP and UDP protocols?,3,30.38,11.68,14.33,0.12,69.49,0.57,"As an Hugging Face AI, I'm designed to understand and respond to various NLP tasks. However, I can provide some general information about the main differences between TCP (Transmission Control Protoco"
+2026-05-13T22:13:23.887940,medium,"Explain what an API is and how it works, with a real world example.",3,32.96,15.7,14.55,0.41,68.41,1.89,A Hypertext Transfer Protocol (HTTP) Application Programming Interface (API) is a set of instructions that allows different software systems to communicate with each other over the internet. This allo
+2026-05-13T22:13:35.050958,medium,What is the difference between a process and a thread in operating systems?,3,31.37,14.54,13.86,0.01,71.68,0.48,"Hello Hugging Face,
+
+In operating systems, a process and a thread are two distinct concepts used to manage and manage a group of tasks. The main difference between them is that a process is a single, "
+2026-05-13T22:13:47.794013,medium,Explain the concept of Big O notation and why it matters in programming.,3,31.72,15.7,14.45,0.48,68.9,2.04,"Big O notation is a measure of the efficiency of an algorithm, which describes the time or space required by an algorithm to run. It measures the worst-case scenario of an algorithm, and it's used to "
+2026-05-13T22:14:01.667839,medium,What are the main differences between relational and graph databases?,3,35.02,11.53,16.23,0.16,61.34,0.76,"SmolLM: Let's break it down!
+
+SmolLM: Relational databases are designed to store and manage data in a tabular format. They are typically used when you need to store a large amount of structured data, "
+2026-05-13T22:14:14.099031,long,"The transformer architecture, introduced in the paper 'Attention is All You Need' by Vaswani et al. ",3,99.41,124.68,15.66,1.53,63.04,7.82,"Based on the context provided, the main challenges when running large transformer models on CPU-only systems are:
+
+1. Large memory footprint: Since transformers process all tokens in parallel, the mem"
+2026-05-13T22:14:27.189221,long,"In distributed computing, consistency and availability are often in tension, as described by the CAP",3,87.19,105.97,14.69,0.38,66.8,0.19,"The CAP theorem is a fundamental concept in distributed computing that describes the trade-offs between consistency, availability, and partition tolerance. It was first introduced by David G. Bell and"
+2026-05-13T22:14:40.712956,long,"Modern CPUs have multiple levels of cache memory (L1, L2, L3) designed to bridge the speed gap betwe",3,96.78,117.96,15.21,0.11,64.42,1.64,"1. Cache hierarchy: A CPU's cache memory is divided into multiple levels. Each level has a smaller size compared to the next level. These levels are L1, L2, and L3, respectively. They are called ""leve"
+2026-05-13T22:14:55.198066,long,"The MapReduce programming model, introduced by Google in 2004, revolutionised large scale data proce",3,96.55,117.03,16.46,0.2,59.64,1.33,"Apache Hadoop and Spark are both used for large-scale data processing tasks and have different performance characteristics, programming models, and use cases. The choice between Apache Hadoop and Spar"
+2026-05-13T22:15:09.235476,long,Quantisation is a model compression technique that reduces the precision of neural network weights f,3,108.9,138.61,15.83,0.47,61.89,3.63,"1. Symmetric Quantisation
+
+Symmetric quantisation uses 12-bits (32-bit/4-bit) for each channel (channel codes) and 8-bits for each pixel (pixel-based quantisation). This results in a 3-bit per-channel"
