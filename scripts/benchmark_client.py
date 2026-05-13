@@ -6,11 +6,12 @@ import requests
 import statistics
 from datetime import datetime
 
+
 def send_prompt(host, port, prompt, n_predict):
-    url = f"http://{host}:{port}/completion"
+    url = f"http://{host}:{port}/v1/chat/completions"
     payload = {
-        "prompt": prompt,
-        "n_predict": n_predict,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": n_predict,
         "stream": True
     }
 
@@ -28,6 +29,8 @@ def send_prompt(host, port, prompt, n_predict):
                 line = line.decode("utf-8")
                 if line.startswith("data: "):
                     line = line[6:]
+                if line.strip() == "[DONE]":
+                    break
                 try:
                     data = json.loads(line)
                 except json.JSONDecodeError:
@@ -39,10 +42,14 @@ def send_prompt(host, port, prompt, n_predict):
                     ttft = now - start_time
 
                 token_times.append(now)
-                generated_text += data.get("content", "")
 
-                if data.get("stop", False):
-                    break
+                # OpenAI-compatible format
+                choices = data.get("choices", [])
+                if choices:
+                    content = choices[0].get("delta", {}).get("content") or ""
+                    generated_text += content
+                    if choices[0].get("finish_reason") is not None:
+                        break
 
     except Exception as e:
         print(f"  ERROR: {e}")
