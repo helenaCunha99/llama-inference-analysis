@@ -1,0 +1,66 @@
+timestamp,category,prompt,trials,ttft_mean_ms,ttft_std_ms,tpot_mean_ms,tpot_std_ms,throughput_mean_tok_s,throughput_std_tok_s,generated_text
+2026-04-16T09:49:27.112010,short,What is the capital of France?,3,134.71,59.95,91.74,3.7,10.89,0.45," Paris
+What is the capital of Australia? Sydney
+What is the capital of South Africa? Cape Town
+What is the capital of China? Beijing
+What is the capital of Japan? Tokyo
+What is the capital of Brazil? "
+2026-04-16T09:50:36.604376,short,What is the speed of light?,3,104.12,12.11,88.12,0.6,11.34,0.08," The speed of light is a fundamental constant in physics that has a value of approximately 299,792,458 meters per second (m/s) in a vacuum. It is denoted by the letter c and is a key component in many"
+2026-04-16T09:51:45.013814,short,Who invented the telephone?,3,108.33,21.81,86.69,0.24,11.52,0.04," Alexander Graham Bell is often credited with inventing the telephone, but some historians have argued that there is no solid evidence to support this claim.
+The story of the telephone's invention is "
+2026-04-16T09:52:53.306895,short,What is the largest planet in the solar system?,3,135.54,69.07,86.44,0.12,11.55,0.05," The answer is Jupiter, which is the fifth planet from the Sun and the largest of all the planets in our solar system.
+Jupiter is a gas giant planet, meaning that it is primarily composed of hydrogen "
+2026-04-16T09:54:01.431779,short,What is the chemical formula for water?,3,108.41,22.28,86.32,0.14,11.57,0.01," Water has two hydrogen atoms and one oxygen atom. Therefore, the chemical formula for water is H_(2)O. The subscript two (2) indicates that the hydrogen atom occurs in pairs, while the subscript one "
+2026-04-16T09:55:09.595435,short,Who wrote Romeo and Juliet?,3,113.48,31.19,86.35,0.02,11.57,0.02," William Shakespeare wrote Romeo and Juliet. This tragedy was written around 1595 and 1596. The story is based on a true story that took place in Verona, Italy, in 1302.
+When did Romeo and Juliet take"
+2026-04-16T09:56:17.884241,short,What is the square root of 144?,3,133.2,63.56,86.44,0.32,11.54,0.07," (1) 2^6 = 64 and (2) 4^4 = 256 (1) alone is sufficient, but (2) alone is not sufficient to answer the question.
+## Step 1: Understand the problem
+We need to determine if the square root of 144 can be"
+2026-04-16T09:57:25.818108,short,What is the capital of Japan?,3,103.01,12.69,86.09,0.05,11.61,0.02,"  Tokyo
+What is the largest city in Japan?  Tokyo
+What is the population of Tokyo?  38,140,000
+What is the official currency of Japan?  Yen
+What is the name of the Japanese monarchy?  Imperial House o"
+2026-04-16T09:58:33.808080,short,How many continents are there on Earth?,3,123.09,47.26,86.09,0.19,11.6,0.04," 7 or 6?
+The short answer is: it depends on who you ask.
+The 7-continent model includes:
+The 6-continent model includes:
+The reason for the difference is mainly a matter of how one defines a continent"
+2026-04-16T09:59:41.772202,short,What is the boiling point of water in Celsius?,3,134.23,68.55,86.01,0.16,11.6,0.06," The boiling point of water in Celsius is 100 degrees. 
+What is the boiling point of water in Fahrenheit? The boiling point of water in Fahrenheit is 212 degrees.
+The boiling point of water is differe"
+2026-04-16T10:00:49.620719,medium,"Explain the key differences between machine learning and deep learning, and provide an example of ea",3,175.23,138.9,85.7,0.18,11.62,0.1, Machine learning is a type of artificial intelligence (AI) that enables computers to learn from data without being explicitly programmed. Machine learning algorithms use statistical methods to analyz
+2026-04-16T10:01:57.652074,medium,What are the main differences between SQL and NoSQL databases? When would you use each?,3,170.6,131.11,85.96,0.23,11.59,0.07," 
+SQL and NoSQL databases are two fundamental categories of databases used in various applications and industries. While both types of databases store and manage data, they differ significantly in the"
+2026-04-16T10:03:05.513193,medium,"Explain how the internet works, from typing a URL to seeing a webpage.",3,148.97,93.35,85.82,0.18,11.62,0.04," Explain how the internet works, from typing a URL to seeing a webpage.
+The internet is a global network of interconnected computers and servers that communicate with each other using standardized pro"
+2026-04-16T10:04:13.273844,medium,What is the difference between supervised and unsupervised learning in machine learning?,3,161.66,115.12,85.64,0.11,11.64,0.08, Supervised learning is a type of machine learning where the model is trained using labeled data and the model learns to map the input data to a corresponding output. Unsupervised learning is a type o
+2026-04-16T10:05:20.955858,medium,Explain the concept of recursion in programming and provide a simple example.,3,156.22,105.64,85.56,0.08,11.65,0.05," Recursion is a programming technique where a function invokes itself, allowing it to solve a problem by breaking it down into smaller instances of the same problem. This can be useful for solving pro"
+2026-04-16T10:06:28.473036,medium,What are the main differences between TCP and UDP protocols?,3,142.92,81.65,85.4,0.17,11.68,0.07," 
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two main protocols used in computer networking for data communication. They are both used to transport data packets over the "
+2026-04-16T10:07:36.176108,medium,"Explain what an API is and how it works, with a real world example.",3,165.26,120.75,85.56,0.17,11.65,0.04," – API Tutorial for Beginners
+An API (Application Programming Interface) is a set of rules and protocols that enable different software systems to communicate with each other. It acts as an intermedia"
+2026-04-16T10:08:43.881790,medium,What is the difference between a process and a thread in operating systems?,3,156.09,105.6,85.59,0.18,11.65,0.08," [duplicate]
+What is the difference between process and thread?
+In operating systems, both processes and threads are used to achieve multitasking. However, there is a fundamental difference between th"
+2026-04-16T10:09:51.365352,medium,Explain the concept of Big O notation and why it matters in programming.,3,165.65,111.98,85.26,0.08,11.68,0.07, Big O notation is a mathematical way to describe the time and space complexity of an algorithm. It measures how long an algorithm takes to complete as the size of the input increases. Big O notation 
+2026-04-16T10:10:58.808073,medium,What are the main differences between relational and graph databases?,3,140.1,78.66,85.31,0.21,11.69,0.04," [duplicate]
+This question already has an answer on another Stack Exchange site. Check the original question on Database Administrators Stack Exchange.
+Relational databases like MySQL, PostgreSQL and "
+2026-04-16T10:12:10.611214,long,"The transformer architecture, introduced in the paper 'Attention is All You Need' by Vaswani et al. ",3,735.18,1089.94,88.67,0.15,10.98,0.51," 
+
+The main challenges when running large transformer models on CPU-only systems are:
+- Memory constraints: The large number of parameters and activations in transformer models can lead to high memory"
+2026-04-16T10:13:21.249876,long,"In distributed computing, consistency and availability are often in tension, as described by the CAP",3,612.38,882.99,87.63,0.07,11.16,0.42," (2500 words)
+
+The CAP theorem, also known as Brewer's CAP theorem, was formulated by computer scientist Eric Brewer in 2000. It states that in a distributed system, a trade-off must be made between c"
+2026-04-16T10:14:32.753519,long,"Modern CPUs have multiple levels of cache memory (L1, L2, L3) designed to bridge the speed gap betwe",3,738.49,1098.11,88.26,0.26,11.03,0.53," 
+
+## Step 1: Understanding the CPU Cache Hierarchy
+The CPU cache hierarchy is designed to reduce the average memory access time by providing a faster access to frequently-used data. The hierarchy typ"
+2026-04-16T10:15:43.571411,long,"The MapReduce programming model, introduced by Google in 2004, revolutionised large scale data proce",3,744.93,1105.65,87.34,0.17,11.14,0.54," How have recent developments in the Hadoop ecosystem, such as Hadoop 3 and YARN, impacted the decision? Be sure to address both the advantages and disadvantages of each framework. Finally, suggest so"
+2026-04-16T10:16:54.840292,long,Quantisation is a model compression technique that reduces the precision of neural network weights f,3,818.89,1238.58,87.64,0.16,11.07,0.59," 
+
+**Quantisation Types**
+
+1.  **Symmetric vs Asymmetric Quantisation**: Symmetric quantisation uses the same quantisation step size for all values within a tensor, whereas asymmetric quantisation use"
